@@ -16,11 +16,11 @@ public enum StandardCommand {
         this.command = command;
     }
 
-    private String getText() {
+    public String getText() {
         return text;
     }
 
-    private String getCommand() {
+    public String getCommand() {
         return command;
     }
 
